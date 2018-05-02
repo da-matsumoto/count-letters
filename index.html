@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Count-letters</title>
+</head>
+<body>
+    <input type="text" onkeyup="ShowLength('inputlength1', value);">
+    <p id="inputlength1">0文字</p>
+    <script type="text/javascript">
+    function ShowLength (idn, str) {
+        document.getElementById(idn).innerHTML = str.length + "文字";
+    }
+    </script>
+</body>
+</html>
